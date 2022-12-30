@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start": "electron app.js"
+    "start": "electron app.js",
+    "build": "# may need to determine build instructions from: https://stackoverflow.com/a/52796884/1551027"
   },
   "repository": {
     "type": "git",
