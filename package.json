@@ -1,0 +1,39 @@
+{
+  "name": "moove",
+  "version": "1.0.0",
+  "description": "Mouse and keyboard sharing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "electron app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draeder/moove.git"
+  },
+  "keywords": [
+    "mouse",
+    "keyboard",
+    "sharing",
+    "kvm",
+    "vkvm"
+  ],
+  "author": "Daniel Raeder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/draeder/moove/issues"
+  },
+  "homepage": "https://github.com/draeder/moove#readme",
+  "dependencies": {
+    "displays": "^1.1.4",
+    "gun": "^0.2020.1239",
+    "robotjs": "^0.6.0",
+    "screen-size": "^1.0.0",
+    "shelljs": "^0.8.5",
+    "systeminformation": "^5.16.9"
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-rebuild": "^3.2.9"
+  }
+}
