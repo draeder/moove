@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/draeder/moove#readme",
   "dependencies": {
-    "displays": "^1.1.4",
+    "displays": "^1.2.0",
     "gun": "^0.2020.1239",
     "robotjs": "^0.6.0",
     "screen-size": "^1.0.0",
